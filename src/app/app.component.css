@@ -1,0 +1,15 @@
+:host{
+  width: 100%;
+  display: grid;
+  grid-template-areas: 
+  "header"
+  "content"
+  "footer";
+  grid-template-columns: 1fr;
+}
+
+.content{
+  display: block;
+  grid-area: content;
+  height: 100%;
+}

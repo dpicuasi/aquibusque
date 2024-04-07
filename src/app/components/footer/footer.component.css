@@ -1,0 +1,9 @@
+:host{
+    display: block;
+    background-color: blueviolet;
+    grid-area: footer;
+}
+
+.example-spacer {
+    flex: 1 1 auto;
+  }

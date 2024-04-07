@@ -1,0 +1,8 @@
+:host{
+    display: block;
+    background-color: cyan;
+    grid-area: sidebar;
+    position: fixed;
+    height: 100%;
+    width: var(--sidebar-width);
+}
