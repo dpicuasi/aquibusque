@@ -1,0 +1,21 @@
+  .container {
+    padding: 24px;
+  }
+
+  img {
+    object-fit: cover;
+  }
+
+  .responsive-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(322px, 1fr));
+    gap: 24px;
+  }
+
+  .mat-mdc-card{
+    grid-template-columns: repeat(auto-fill, minmax(322px, 1fr));
+  }
+
+  .mat-mdc-card-content{
+    grid-template-columns: repeat(auto-fill, minmax(322px, 1fr));
+  }

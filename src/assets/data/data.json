@@ -1,0 +1,63 @@
+[
+    {
+      "id": 1,
+      "title": "Programación Java I - P.O.O",
+      "subTitle": "Curso/Clases - Virtual",
+      "imageUrl": "assets/img/logo-java.png",
+      "description": "Se dictan clases de java, Programación orientada a objetos (Programación I), bajo temario personalizado. Clases por horas a la semana, de manera virtual via zoom o meet, horario a coordinar con el estudiante",
+      "message": "Mas información contactate con nosotros",
+      "whatsapp": "&text=Hola%20estoy%20interesado%20en%20el%20curso%20de%20programación%20Java%20I",
+      "email": "?subject=Quiero%20mas%20información"
+    },
+    {
+        "id": 2,
+        "title": "Programación Java II - Jframe",
+        "subTitle": "Curso/Clases - Virtual",
+        "imageUrl": "assets/img/netbeans.png",
+        "description": "Clases personalizadas de java, Programación Gráfica con JFrame, bajo temario específico. Creación de pantallas que usan controladores para ingreso de datos y guarda información a base de datos.",
+        "message": "Mas información contactate con nosotros",
+        "whatsapp": "&text=Hola%20estoy%20interesado%20en%20el%20curso%20de%20programación%20Java%20II",
+        "email": "?subject=Quiero%20mas%20información"
+    },
+    {
+        "id": 3,
+        "title": "Programación Java III - Web",
+        "subTitle": "Curso/Clases - Virtual",
+        "imageUrl": "assets/img/primefaces.png",
+        "description": "Se dictan clases de java, Programación web bajo JSF, Primefaces (Programación III), bajo temario personalizado. Clases por horas a la semana, de manera virtual via zoom o meet, horario a coordinar con el estudiante",
+        "message": "Mas información contactate con nosotros",
+        "whatsapp": "&text=Hola%20estoy%20interesado%20en%20el%20curso%20de%20programación%20Java%20III",
+        "email": "?subject=Quiero%20mas%20información"
+    },
+    {
+        "id": 4,
+        "title": "Base de Datos I - Mysql",
+        "subTitle": "Curso/Clases - Virtual",
+        "imageUrl": "assets/img/mysql_bdd.png",
+        "description": "Clases de bases de datos, creación de tablas, script de insert, actualizacion, eliminación, modelos entidad-relacion. Clases por horas a la semana, de manera virtual via zoom o meet, horario a coordinar con el estudiante",
+        "message": "Mas información contactate con nosotros",
+        "whatsapp": "&text=Hola%20estoy%20interesado%20en%20el%20curso%20de%20base%20de%20datos",
+        "email": "?subject=Quiero%20mas%20información"
+    },
+    {
+        "id": 5,
+        "title": "Spring Boot",
+        "subTitle": "Curso/Clases - Virtual",
+        "imageUrl": "assets/img/spring-boot.png",
+        "description": "Se dictan clases de spring boot, creación de api rest, consumo desde postman o proyecto java web. Clases por horas a la semana, de manera virtual via zoom o meet, horario a coordinar con el estudiante",
+        "message": "Mas información contactate con nosotros",
+        "whatsapp": "&text=Hola%20estoy%20interesado%20en%20el%20curso%20de%20spring%20boot",
+        "email": "?subject=Quiero%20mas%20información"
+    },
+    {
+        "id": 6,
+        "title": "Curso Angular 17",
+        "subTitle": "Curso/Clases - Virtual",
+        "imageUrl": "assets/img/angular17.png",
+        "description": "Creación de CRUD, manejo de componentes, consumo de backend api rest. Clases por horas a la semana, de manera virtual via zoom o meet, horario a coordinar con el estudiante",
+        "message": "Mas información contactate con nosotros",
+        "whatsapp": "&text=Hola%20estoy%20interesado%20en%20el%20curso%20de%20angular17",
+        "email": "?subject=Quiero%20mas%20información"
+    }
+
+]

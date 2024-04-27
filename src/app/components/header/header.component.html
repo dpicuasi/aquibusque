@@ -1,19 +1,15 @@
 <mat-toolbar color="primary">
-  <span>KintySoft</span>
-  <img mat-card-image src="assets/img/colibri.png" height="60px" width="60px" alt="Colibri - Kindi">
-  
-  <span class="example-spacer"></span>
-  
-  <button mat-button>INICIO</button>
-  
-  <button mat-button>CURSOS</button>
-  
-  <button mat-button>TUTORIAS</button>
-
-  <button mat-button>SISTEMAS</button>
-  
-  <button mat-button>ACERCA DE</button>
-  
-  <button mat-button>CONTACTOS</button>
-  
-  </mat-toolbar>
+  <button mat-button>
+    <img mat-card-image src="assets/img/colibri.png" height="50px" width="50px" alt="Colibri - Kindi">
+  </button>
+  <button mat-button [matMenuTriggerFor]="empresa">KINTYSOFT</button>
+  <mat-menu #empresa="matMenu">
+    <button mat-menu-item>CONTACTO</button>
+    <button mat-menu-item>ACERCA DE</button>
+  </mat-menu>
+  <button mat-button [matMenuTriggerFor]="menu">CURSOS</button>
+  <mat-menu #menu="matMenu">
+    <button mat-menu-item>TUTORIAS</button>
+    <button mat-menu-item>SISTEMAS</button>
+  </mat-menu>
+</mat-toolbar>

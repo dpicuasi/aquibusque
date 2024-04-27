@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnInit, Output, ViewChild } from '@angular/core';
 import { MaterialModule } from '../../material.module';
 
 @Component({
@@ -9,5 +9,6 @@ import { MaterialModule } from '../../material.module';
   styleUrl: './header.component.css'
 })
 export class HeaderComponent {
-
-}
+  
+ 
+ }
