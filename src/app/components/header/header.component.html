@@ -1,10 +1,10 @@
 <mat-toolbar color="primary">
-  <button mat-button>
+  <button mat-button type="button" [routerLink]="['/home']" >
     <img mat-card-image src="assets/img/colibri.png" height="50px" width="50px" alt="Colibri - Kindi">
   </button>
   <button mat-button [matMenuTriggerFor]="empresa">KINTYSOFT</button>
   <mat-menu #empresa="matMenu">
-    <button mat-menu-item>CONTACTO</button>
+    <button mat-menu-item type="button" [routerLink]="['/contact']" >CONTACTO</button>
     <button mat-menu-item>ACERCA DE</button>
   </mat-menu>
   <button mat-button [matMenuTriggerFor]="menu">CURSOS</button>
