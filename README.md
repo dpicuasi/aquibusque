@@ -1,6 +1,7 @@
 # Aquibusque
 
-Proyect with Angular v17 example project to publish programming courses, it is made in Angular 17, with active SSR to improve the SEO of the site
+Project it is made in Angular 17, example project to publish programming courses, with active SSR to improve the SEO of the site,
+moreover  has the template to work with a header, footer and sidebar
 
 #### Computer screen image
 
