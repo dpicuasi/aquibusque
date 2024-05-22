@@ -1,34 +1,51 @@
 <div class="container responsive-grid">
 
-<form (submit)="submit()"  class="form" [formGroup]="form">
-    <div class="form-group">
-      <label for="name-input">Name:</label>
-      <input id="name-input" type="text" class="form-control" formControlName="name">
+  <div class="row ml-1">
+    <div class="col">
+        <div class="testimonial-card ">
+            <img src="../assets/img/colibri.png" class="img-fluid contact-image">
+        </div>
     </div>
-  
-    <div class="form-group">
-      <label for="email-input">Email:</label>
-      <input id="email-input" type="email" class="form-control" formControlName="email">
-    </div>
-    
-    <div class="form-group">
-      <label for="phone-input">Phone:</label>
-      <input id="phone-input" type="tel" class="form-control" formControlName="phone">
-    </div>
+</div>
+<div class="row">
+    <div class="col-md-2"></div>
+    <div class="col">
+        <div class="contact-card">
+            <form class="form-group">
+                <h4 class="mb-3">Contactos</h4>
+                <div class="form-group">
+                    <div class="input-group mb-4">
+                        <div class="input-group-prepend">
+                            <div class="input-group-text"><i class="fa fa-user text-info"></i></div>
+                        </div>
+                        <input type="text" class="form-control" id="FullName" placeholder="Nombre completo">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="input-group mb-4">
+                        <div class="input-group-prepend">
+                            <div class="input-group-text"><i class="fa fa-envelope text-info"></i></div>
+                        </div>
+                        <input type="email" class="form-control" id="Email" placeholder="test@gmail.com">
+                    </div>
+                </div>
 
-    <div class="form-group">
-      <label for="message-input">Message:</label>
-      <input id="message-input" class="form-control" formControlName="message">
+                <div class="form-group">
+                    <div class="input-group mb-4">
+                        <div class="input-group-prepend">
+                            <div class="input-group-text"><i class="fa fa-comment text-info"></i></div>
+                        </div>
+                        <textarea class="form-control" placeholder="Tu mensaje"></textarea>
+                    </div>
+                </div>
+
+                <div class="text-center">
+                    <input type="submit" value="Enviar" class="btn btn-info btn-block rounded-0 py-2">
+                </div>
+            </form>
+        </div>
     </div>
-  
-    <div class="form-group">
-      <button
-              type="submit"
-              [disabled]="!form.valid"
-              class="btn btn-success float-right">
-        Submit
-      </button>
-    </div>
-  </form>
+    <div class="col-md-2"></div>
+</div>
 
   </div>
